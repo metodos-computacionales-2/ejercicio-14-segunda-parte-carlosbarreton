@@ -35,6 +35,7 @@ void euler(float t_inicial, float t_final, float delta_t, float omega, string ar
   while(t<t_final){    
     z_anterior = z;
     y_anterior = y;
+    cout << t << " " << y << " " << z << endl;
     outfile << t << " " << y << " " << z << endl;
     z  = z_anterior + delta_t * dzdt(t, y_anterior, z_anterior, omega);
     y = y_anterior + delta_t * dydt(t, y_anterior, z_anterior, omega);
