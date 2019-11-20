@@ -20,3 +20,11 @@ plt.title("Runge-Kutta")
 plt.xlabel("t")
 plt.ylabel("x")
 plt.savefig("rk4.png")
+
+v = data[:,2]
+plt.figure()
+plt.plot(x,v)
+plt.title("Espacio de fase")
+plt.xlabel("x")
+plt.ylabel("v")
+plt.savefig("fase.png")
