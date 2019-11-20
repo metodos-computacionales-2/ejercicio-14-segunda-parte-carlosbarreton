@@ -7,3 +7,5 @@
 3. Al ejecutar el makefile se imprimen los valores solicitados y se crea el archivo euler.dat. Estos archivo es leído por el script de python.
 
 4. La solución cuya gráfica se muestra en el archivo euler.png no es lo esperado, pues se esperaba que la solución fuera de la forma que se indica en la respuesta 2., es decir, una función sinusoidal. En contraste, aunque la solución si oscila, la amplitud aumenta con el tiempo, que es algo que no debería suceder.
+
+5. Con la implementación del método Runge Kutta sí se observa lo esperado. Ver figura rk4.png.
